@@ -4,12 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <nav>
+<body class="bg-white">
+    <header class="w-full bg-[#fff9f4]">
+        <nav class="navbar w-10/12 mx-auto flex justify-between ">
+            <div class="flex gap-1 justify-center align-center"><img src="c1-assets/logo-header.png" alt="Pet pow">
+            <h2 class="text-black font">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
+            </div>
+            <div class="w-2/3 justify-between sm:hidden md:flex">
+                <div class="flex text-black w-2/5 justify-between"><a class="ancor-font" href="">Find a Pet</a><a class="ancor-font" href="">Breeds</a><a class="ancor-font" href="">Contact us</a></div>
+            <div class="flex w-80 justify-between align">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path class="hover:cursor-pointer" stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path class="hover:cursor-pointer" stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                  </svg>
+                   <button class="border-2 border-yellow-500 rounded w-28 h-11 font-normal text-black hover:bg-yellow-500 hover:text-white">login</button>
+                   <button class="btn btn-sm btn-warning w-32 h-11">Register</button>
+            </div>
+            </div>
             
         </nav>
     </header>
+    <main>
+        <div class="relative w-[82%] mx-auto mt-16">
+            <div class="w-[100%] z-0"><img src="c1-assets/cat-big.png" alt=""></div>
+            <div class="absolute top-10">
+                <h1 class="title mb-4">Pamper Your Pet,<br>Because They Deserve<br>the Best</h1>
+                <p class="des w-2/4 mb-6">
+                    Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
+                </p>
+                <button class="btn btn-sm btn-warning w-40 h-11 animate-bounce">Find a Pet</button>
+            </div>
+        </div>
+        
+        <div>
+            hell
+            
+        </div>
+    </main>
 </body>
 </html>

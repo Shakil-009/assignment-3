@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap');
+/* Nav design */
+.navbar{
+    display: flex;
+}
+.font{
+    font-family: Sora;
+font-size: 26px;
+font-weight: 400;
+line-height: 33px;
+letter-spacing: 0%;
+}
+.ancor-font{
+    color: rgb(17, 17, 17);
+font-family: Sora;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+}
+.align{
+    align-items: center;
+}
+/* main body */
+.title{
+    color: rgb(17, 17, 17);
+font-family: ADLaM Display;
+font-size: 56px;
+font-weight: 400;
+line-height: 73px;
+letter-spacing: 0%;
+text-align: left;
+}
+.des{
+    color: rgb(17, 17, 17);
+font-family: Sora;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.find{
+    color: rgb(17, 17, 17);
+font-family: Sora;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+}
+.he{
+    height: 749px;
+}
+a:hover{
+cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+}
