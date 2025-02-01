@@ -11,12 +11,12 @@
 <body class="bg-white">
     <header class="w-full bg-[#fff9f4]">
         <nav class="navbar w-10/12 mx-auto flex justify-between ">
-            <div class="flex gap-1 justify-center align-center"><img src="c1-assets/logo-header.png" alt="Pet pow">
-            <h2 class="text-black font">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
+            <div class="flex gap-1 justify-center items-center"><img class="h-12 w-12" src="c1-assets/logo-header.png" alt="Pet pow">
+            <h2 class="text-black font hidden md:flex">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
             </div>
-            <div class="w-2/3 justify-between sm:hidden md:flex">
+            <div class="w-2/3 justify-between hidden md:flex">
                 <div class="flex text-black w-2/5 justify-between"><a class="ancor-font" href="">Find a Pet</a><a class="ancor-font" href="">Breeds</a><a class="ancor-font" href="">Contact us</a></div>
-            <div class="flex w-80 justify-between align">
+            <div class="flex w-80 justify-between items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                     <path class="hover:cursor-pointer" stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
                   </svg>
@@ -27,18 +27,42 @@
                    <button class="btn btn-sm btn-warning w-32 h-11">Register</button>
             </div>
             </div>
-            
+            <label class="btn btn-circle bg-white swap swap-rotate hover:bg-slate-300 md:hidden">
+                <!-- this hidden checkbox controls the state -->
+                <input type="checkbox" />
+              
+                <!-- hamburger icon -->
+                <svg
+                  class="swap-off fill-black"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 512 512">
+                  <path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z" />
+                </svg>
+              
+                <!-- close icon -->
+                <svg
+                  class="swap-on fill-black"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 512 512">
+                  <polygon
+                    points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49" />
+                </svg>
+              </label> 
         </nav>
     </header>
     <main>
-        <div class="relative w-[82%] mx-auto mt-16">
-            <div class="w-[100%] z-0"><img src="c1-assets/cat-big.png" alt=""></div>
-            <div class="absolute top-10">
-                <h1 class="title mb-4">Pamper Your Pet,<br>Because They Deserve<br>the Best</h1>
-                <p class="des w-2/4 mb-6">
+        <div class="flex justify-end flex-col-reverse mx-auto w-[82%] he my-6 md:my-0 md:relative md:h-auto md:mb-20">
+            <div class="w-[100%] z-0 relative"><img class="absolute -top-20 md:static" src="c1-assets/cat-big.png" alt=""></div>
+            <div class="pl-8 md:top-10 md:absolute">
+                <h1 class="sm-title mb-4 md:text-6xl">Pamper Your Pet,<br>Because They Deserve<br>the Best</h1>
+                <p class="des w-4/5 md:w-2/3 mb-6 text-slate-700 md:text-xl leading-9">
                     Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!
                 </p>
-                <button class="btn btn-sm btn-warning w-40 h-11 animate-bounce">Find a Pet</button>
+                <button class="btn btn-warning w-40 h-11 animate-bounce">Find a Pet</button>
             </div>
         </div>
         
