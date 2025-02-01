@@ -78,7 +78,7 @@ cursor: pointer;
 button:hover{
     cursor: pointer;
 }
-/* cards */
+
 .cat-title{
     color: rgb(17, 17, 17);
 font-family: ADLaM Display;
@@ -89,11 +89,19 @@ letter-spacing: 0%;
 text-align: left;
 }
 .back{
-    background-color: #f9df8a;
+    background-color: #1111111a;
+}
+.ah{
+    height: 400;
+}
+.ph{
+height: 776px;
 }
 
 
-
-@media screen and (max-width: ){
+@media screen and (min-width: 786px) {
+    .all{
+        width: 786px;
+    }
     
 }
