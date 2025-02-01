@@ -1,4 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap');
+
+
+
+.adlam-regular {
+    font-family: "ADLaM Display", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .sora{
+    font-family: "Sora", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
 /* Nav design */
 .navbar{
     display: flex;
@@ -65,7 +78,19 @@ cursor: pointer;
 button:hover{
     cursor: pointer;
 }
-
+/* cards */
+.cat-title{
+    color: rgb(17, 17, 17);
+font-family: ADLaM Display;
+font-size: 24px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0%;
+text-align: left;
+}
+.back{
+    background-color: #f9df8a;
+}
 
 
 
